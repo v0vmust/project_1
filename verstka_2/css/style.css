@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Be+Vietnam+Pro:wght@400;600;700&family=Edu+NSW+ACT+Foundation:wght@700&family=Kalam:wght@700&family=League+Spartan:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	color: #ffffff;
+	font: 16px/28px 'Be Vietnam Pro', Arial, Helvetica, sans-serif;
+	background-color:#000000;
+
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+	transition: .4s;
+}
+
+ul li{
+	list-style: none;
+
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+button{
+	display: block;
+	border: none;
+	background-color: transparent;
+	font: inherit;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}	
+
+.title-selection{
+	margin-bottom: 40px;
+	font-size: 52px;
+	line-height: 64px;
+	letter-spacing: 0.6px;
+	text-align: center;
+	 
+}
+
+.btn-primary{
+	padding: 12px 24px;
+	font-weight: 600;
+	background-color: #EE8313;
+}
+
+.btn-secondary{
+	padding: 12px 24px;
+	border: 1px solid #EE8313 ;
+	color: #EE8313;
+	font-weight: 600;
+	line-height: 26px;
+
+}
+
+.btn-primary:hover{
+	background-color: #e55406;
+}
+
+
+
+/* Header */
+#header-section{
+	padding: 40px 0 107px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+.header-logo__img{
+	height: 48px;
+	width: 48px;
+}
+
+.nav-main{
+	margin-left: auto;
+}
+
+.nav-main__list{
+	display: flex;
+	gap: 48px;
+	margin-right: 72px;
+}
+
+.nav-main__link:hover{
+	color: #EE8313;
+}
+
+/* Banner */
+
+#banner-section {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+
+.banner{
+	max-width: 475px;
+	padding-top: 45px;
+}
+
+.banner__header{
+	font-size: 52px;
+	line-height: 64px;
+	letter-spacing: 0.6px;
+}
+
+.benner__text{
+	margin: 32px 0 48px;
+	font-size: 17px;
+	color:#FFFFFF;
+	opacity: 0.8;
+}
+
+.banner-links-wrap{
+	display: flex;
+	align-items: center;
+	gap: 35px;
+	margin-bottom: 40px;
+}
+
+.banner-futures__text{
+	font-weight: 600px;
+	line-height: 24px;
+}
+
+.banner-futures__text:first-child{
+	margin-right: 40px;
+}
+
+
+.banner-futures__text_strong{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 52px;
+	margin-right: 16px;
+	vertical-align: sub;
+}
+
+.banner-img{
+	position: absolute;
+	width: 60%;
+	height: 450px;
+	right: 0;
+	top: 28%;
+
+}
+
+.banner-img::before{
+	position: absolute;
+	content: '';
+	z-index: 2;
+	width: 96%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-image: url(car_orange.png) ;
+}
+
+.banner-img::after{
+	position: absolute;
+	content: '';
+	z-index: 1;
+	width: 75%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: rgba(52, 52, 52, 0.3);
+	
+}
+
+/* Rent */
+
+#rent-section{
+	padding: 120px 0;
+}
+
+.rent-wrap{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 32px;
+
+}
+
+.rent{
+	position: relative;
+	height: 524px;
+	font-weight: 600;
+	background: url(Mask_!.png) 50%/cover no-repeat;
+}
+
+.rent:nth-child(2){
+	background-image: url(Mask\ \(1\).png);
+}
+
+.rent:nth-child(3){
+	background-image: url(Mask\ \(2\).png);
+}
+
+.rent:nth-child(4){
+	background-image: url(Mask\ \(3\).png);
+}
+
+.rent__name{
+	position: absolute;
+	top: 48px;
+	left: 48px;
+	font-size: 40px;
+	letter-spacing: 0.6px;
+}
+
+.rent__link{
+	position: absolute;
+	bottom: 48px;
+	right: 60px;
+	font-size: 24px;
+	letter-spacing: 0.6px;
+	padding-right: 25px;
+}
+
+.rent__link:hover{
+	color: #FFCC2C;
+	cursor: pointer;
+}
+
+/* Services */
+
+#services-section{
+	padding-bottom: 120px;
+}
+
+.services-section__title{
+	margin-bottom: 66px;
+	text-align: left;
+}
+
+.services-wrap{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;	
+}
+
+.services__img{
+	margin-right: 24px;
+}
+
+.services-title{
+	margin-bottom: 16px;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.services-text{
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+
